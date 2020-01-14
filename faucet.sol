@@ -14,7 +14,7 @@ contract faucet {
         owner_address = msg.sender;
     }
 
-    function () public payable {
+    function () payable external {
     }
 
     function get_balance() public view returns (uint) {
